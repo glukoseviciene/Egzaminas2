@@ -1,0 +1,80 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    z-index: 999;
+}
+
+ header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.499);
+    margin: 2%;  
+    
+}
+
+.name {
+    display: flex; 
+    justify-content: center;
+    width: 31%;  
+   
+}
+
+nav .link:hover {
+    color: white;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    float: right;
+    gap: 45px;
+}
+
+header a:hover {
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid $orange;
+}
+
+img {
+  width: 120px;
+  display: flex;
+}
+
+
+.link.block {
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .link {
+        display: none;
+    }
+    
+    nav {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: auto;
+       min-height: 50px;
+    }
+    
+}
+

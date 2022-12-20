@@ -1,0 +1,134 @@
+.awesome {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.why {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 2em;
+}
+
+.line2 {
+    background: url(../content/line.png);
+    width: 60px;
+    height: 3px;
+    background-position: center;
+    background-size: contain;
+}
+
+.second1 {
+    width: 500px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.607);
+}
+
+.container4 {
+    width: 90%;
+    max-width: 1200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.box-1 {
+    width: 310px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 2px solid $orange;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.award {
+    width: 30px;
+    height: 30px;
+    background: url(../content/award.svg);
+    background-repeat: no-repeat;
+   background-position: center;
+    background-size: contain;
+    transition: 1s;
+}
+
+.award:hover {
+    transform: scaleX(1.5);
+}
+
+.visa {
+    width: 30px;
+    height: 30px;
+    background: url(../content/visa.svg);
+    background-repeat: no-repeat;
+   background-position: center;
+    background-size: contain;
+    transition: 1s;
+}
+
+.visa:hover {
+    transform: scaleX(1.5);
+}
+
+.spa {
+    width: 30px;
+    height: 30px;
+    background: url(../content/spa.svg);
+    background-repeat: no-repeat;
+   background-position: center;
+    background-size: contain;
+    transition: 1s;
+}
+
+.spa:hover {
+    transform: scaleX(1.5);
+}
+
+.design {
+    font-size: 20px;
+}
+
+.text3 {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.631);
+}
+
+@media (max-width: 768px) {
+    .awesome {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+}

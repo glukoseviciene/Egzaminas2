@@ -1,0 +1,165 @@
+.pricing {
+    width: 100%;
+    height: 730px;
+    background: $blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+.line3 {
+    background: url(../content/green.svg);
+    width: 60px;
+    height: 3px;
+    background-position: center;
+    background-size: contain;
+    color: $green;
+}
+
+.second2 {
+    width: 500px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.container5 {
+    width: 80%;
+    max-width: 1300px;
+    height: 480px;
+    // background: #41D395;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.greta1 {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.greta1:hover {
+    transform: translateY(20px);
+}
+
+
+.basic {
+    width: 100%;
+    height: 200px;
+    background: rgba(33, 31, 31, 0.914);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.popular {
+    width: 350px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.dollar {
+    font-size: 30px;
+    display: flex;
+   align-items:flex-end;
+    height: 80%;
+}
+
+.price1 {
+    font-size: 6em;
+}
+
+.free {
+    color: grey;
+}
+
+.pic4 {
+    background: url(../content/green.svg);
+    width: 100%;
+    height: 4px;
+    color: $green;
+}
+
+
+.pic5 {
+    background: url(../content/green.svg);
+    width: 100%;
+    height: px;
+    color: $green;
+}
+.most {
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $green;
+}
+.info {
+    width: 100%;
+    height: 246px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    color: rgba(128, 128, 128, 0.504);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.money {
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    .pricing {
+        width: 100%;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .container5 {
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}

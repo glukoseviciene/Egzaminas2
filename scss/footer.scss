@@ -1,0 +1,71 @@
+footer {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    text-align: right;
+    background: black;
+}
+.social1 {
+    width: 54%;
+    height: 100px;
+    background: black;
+}
+
+.footer1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    background: url(../content/fb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    background: url(../content/ins.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+    background: url(../content/tw.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pinterest {
+    width: 20px;
+    height: 20px;
+    background: url(../content/pnt.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wifi {
+    width: 20px;
+    height: 20px;
+    background: url(../content/wifi.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.county {
+    color: rgba(128, 128, 128, 0.55);
+}
+
+.last {
+    width: 40%;
+
+}
